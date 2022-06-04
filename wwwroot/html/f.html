@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/order.css">
+
+</head>
+
+<body>
+   
+
+<div class="window_order">
+    <div class="window_order__dialog">
+      
+        <div class="window_order__content">
+              <form action="#" class="form_order">
+               <p> Товар: Стул Mintrigi </p>
+               <div class="range_container">
+                <input type="range" min="1" max="20" value="20" class="slider" id="myRange">  <p id="dinamicValue">50</p>
+               </div>
+        
+               <p> Cуммарная цена: 13000 </p>
+               
+               <div class="window_order__inputs">
+                <input required placeholder="Номер карты" maxlength="10" name="login" type="number" class="window_order__input">
+               
+                <input required placeholder="Пин" maxlength="3" name="password" type="number" class="window_order__input">
+                
+               </div>
+           
+                <input type="submit" value="Заказать" class="window_order__btn"></input>
+            </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<script>
+    var slider = document.getElementById("myRange");
+var output = document.getElementById("dinamicValue");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+    output.innerHTML = this.value;
+} 
+
+
+
+</script>
+<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$('body').on('input', 'input[type="number"][maxlength]', function(){
+	if (this.value.length > this.maxLength){
+		this.value = this.value.slice(0, this.maxLength);
+	}
+});
+</script>

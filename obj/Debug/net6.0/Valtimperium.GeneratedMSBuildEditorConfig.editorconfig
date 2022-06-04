@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Valtimperium
+build_property.RootNamespace = Valtimperium
+build_property.ProjectDir = C:\Users\VIKA\source\repos\Ruslan\Valtimperium\Valtimperium\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\VIKA\source\repos\Ruslan\Valtimperium\Valtimperium
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Log/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Log/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Main/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Main/Catalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDYXRhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Main/DetailsProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxEZXRhaWxzUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Main/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Main/OrderProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxPcmRlclByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Types/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Types/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Types/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Types/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Types/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VIKA/source/repos/Ruslan/Valtimperium/Valtimperium/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3hgby6ozkb

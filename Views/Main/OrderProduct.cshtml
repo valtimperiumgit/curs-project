@@ -1,0 +1,62 @@
+﻿       
+@model Valtimperium.Product
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/order.css">
+    <link rel="stylesheet" href="~/css/main.css">
+ 
+</head>
+
+<body>
+   <div class="window_order">
+          <div class="window_order__dialog">
+              <div class="window_order__content">
+                    <form asp-route-idClient="@User.Claims.FirstOrDefault(claim => claim.Type == "IdClient").Value" asp-route-idProduct="@Model.IdProduct" asp-action="OrderProduct" class="form_order">
+                    
+                        
+                        <p> Товар: @Model.Name </p>
+                     <div class="range_container">
+                      <input name="count" type="range" min="1" max="20" value="1" class="slider" id="myRange">  <p id="dinamicValue">50</p>
+                     </div>
+              
+                     <p> Cуммарная цена: <span id="totalPrice"> @Model.Price </span>  </p>
+
+                      @if(ViewData["ErrorLog"] != null)
+                    {
+                         <p class="valid_message ord"> @ViewData["ErrorLog"] </p>
+                    }
+
+                     <div class="window_order__inputs">
+                      <input required placeholder="Номер карты" name="cardNumber" maxlength="10" minlength="10" type="text" class="window_order__input">
+                     
+                      <input required placeholder="Пин" min="100" max="999" name="pin" type="number" class="window_order__input">
+
+                     </div>
+                     <input required placeholder="Куда доставить?" name="address" type="text" class="window_order__adress">
+                 
+                      <input type="submit" value="Заказать" class="window_order__btn">
+                  </form>
+              </div>
+          </div>
+        </div>
+
+         <script>
+            const startPrice = @Model.Price;       
+         </script>
+
+           <script src="~/js/order.js"> 
+           
+           </script>
+          
+</body>
+ 
+
+
+</html>
+

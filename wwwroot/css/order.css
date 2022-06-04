@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.window_order {
+    background: #373737;
+    /* opacity: 0.5; */
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.window_order__dialog{
+    height: 450px;
+    background: #373737;
+    max-width:600px;
+    margin:40px auto;
+    box-shadow: 0 0 20px rgba(237, 237, 237, 0.5);
+    color: aliceblue;
+}
+
+.window_order__dialog span{
+    margin-left: 10px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    
+}
+
+.window_order__dialog p{
+    margin-left: 150px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.form_order{
+    padding-top: 30px;
+}
+
+.range_container{
+    display: flex;
+}
+.range_container p{
+    margin-left: 10px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.window_order__inputs{
+    margin-left: 150px;
+}
+
+.window_order__inputs input{
+    width: 130px;
+    height: 30px;
+    background: #dfd6d6;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    color:black;
+    outline:none;
+    border:none;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+
+.window_order__adress{
+    width: 265px;
+    height: 30px;
+    background: #dfd6d6;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    color:black;
+    outline:none;
+    border:none;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.window_order__inputs input:focus{
+    border:none;
+    outline:none;
+}
+
+.window_order__btn{
+    margin-top: 40px;
+    width: 120px;
+    margin-left: 150px;
+    height: 50px;
+    background:none;
+    border:2px solid #dfd6d6;
+    color:#dfd6d6;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
+.window_order__btn:hover{
+    color:#373737;
+    background:#dfd6d6;
+}
+
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 270px; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #dfd6d6; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.9; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-left: 150px ;
+    margin-top: 25px;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #e3ba84; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #e3ba84; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}

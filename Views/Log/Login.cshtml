@@ -1,0 +1,75 @@
+﻿@model Valtimperium.Client
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/main.css"  />
+<link rel="stylesheet" href="~/css/menu.css"  />
+<link rel="stylesheet" href="~/css/back.css"/>
+    <link rel="stylesheet" href="~/css/modal.css"/>
+</head>
+<body>
+
+
+  
+    <div class="modal login">
+        <div class="modal__dialog">
+          <div class="btns-change">
+                    <div class="btn-change btn_entr">
+                      ВХОД
+                    </div>
+                    <div class="btn-change btn_reg">
+                      РЕГИСТРАЦИЯ
+                    </div>
+                  </div>
+            <div class="modal__content">
+                  <form asp-controller="Log" asp-action="Login" class="form_entr">
+                    @if(ViewData["ErrorLog"] != null)
+                    {
+                         <p class="valid_message"> @ViewData["ErrorLog"] </p>
+                    }
+                   <div class="modal__inputs">
+                   <input required placeholder="Логин" name="login" type="text" minlength="6" pattern="^[a-zA-Z]+$" id="log" class="modal__input">
+              <input required placeholder="Пароль" name="password" type="password" minlength="8" class="modal__input">
+                   </div>
+               
+                   <button class="modal__btn"> Войти </button>
+
+
+                </form>
+
+                <form asp-controller="Log" asp-action="Register" class="form_reg">
+                       @if(ViewData["ErrorReg"] != null)
+                    {
+                         <p class="valid_message"> @ViewData["ErrorReg"] </p>
+                    }
+                  <div class="modal__inputs">
+                    <div class="fio_block">
+                <input required placeholder="Имя" name="name" type="text" minlength="2" class="modal__input name_inp" >
+                <input required placeholder="Фамилия" name="surname" minlength="2" type="text" class="modal__input name_inp">
+              </div>
+                    <input required placeholder="Логин (только латиница)" name="login" minlength="6" type="text" pattern="^[a-zA-Z]+$" class="modal__input">
+              <input required placeholder="Пароль" name="password" minlength="8" type="password" class="modal__input">
+              <input required placeholder="Телефон" name="phone" type="number" minlength="8" class="modal__input">
+            </div>
+              <button class="modal__btn"> Зарегистрироваться </button>
+                </form>
+            </div>
+        </div>
+      </div>
+
+      <script src="~/js/form2.js" ></script>
+      <script src="/js/validation-login.js" ></script>
+</body>
+
+</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

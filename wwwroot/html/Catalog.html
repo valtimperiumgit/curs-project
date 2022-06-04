@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/main.css"  />
+<link rel="stylesheet" href="../css/menu.css"  />
+<link rel="stylesheet" href="../css/back.css"/>
+<link rel="stylesheet" href="../css/modal.css"/>
+</head>
+<body>
+    <div class="navigator">
+
+        <div class="navigator_logo">
+         <img height ="60px" src="../images/logo.png" alt="">
+          
+          <h2>ДИЗАЙНЕРСКАЯ МЕБЕЛЬ</h2> 
+       </div> 
+<!-- - valtimperium - -->
+      
+
+       <ul class="menu">
+         <li><a class="menuItem menuItemActive" href="#">ГЛАВНАЯ</a></li>
+         <li><a class="menuItem" href="bgf.html">О НАС</a></li>
+         <li><a class="menuItem" href="#">ТОВАРЫ</a></li>
+         <li><p class="menuItem madal_entr_btn"  >ВХОД</p></li>
+       </ul>
+       <button class="hamburger">
+         <!-- material icons https://material.io/resources/icons/ -->
+         <img width="32px" height="32px" class="menuIcon material-icons" src="../images/-.png" alt="">
+         <img width="32px" height="32px" class="closeIcon  " src="../images/а.png" alt="">
+
+         
+       </button>
+       
+      </div>
+
+<div class="catalog">
+  <div class="ash"> Каталог. </div>
+    <div class="catalog_content">
+      <div class="catalog_select">
+        <select class="catalog_select_list" name="" id="">
+          <option class="select_item" value=""> Стулья </option>
+          <option value=""> Стулья </option>
+          <option value=""> Стулья </option>
+          <option value=""> Стулья </option>
+          <option value=""> Стулья </option>
+        </select>
+    
+        <div class="catalog_select_btn">
+          <img src="../images/icons/sort.png" width="36px" height="36px" alt="">
+        </div>
+      </div>
+      <div class="catalog_container">
+        <a asp-action="DetailsProduct" asp-route-id="@product.IdProduct" class="catalog_item"> <img class="catalog_item_img" src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg"> <p> Стул Mintrigi <br> <span> 13000 UAH </span> </p>  </a>
+        <a asp-action="DetailsProduct" asp-route-id="@product.IdProduct" class="catalog_item"> <img class="catalog_item_img" src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg"> <p> Стул Mintrigi <br> <span> 13000 UAH </span> </p> </a>
+        <a asp-action="DetailsProduct" asp-route-id="@product.IdProduct" class="catalog_item"> <img class="catalog_item_img" src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg"> <p> Стул Mintrigi <br> <span> 13000 UAH </span> </p> </a>
+        <a asp-action="DetailsProduct" asp-route-id="@product.IdProduct" class="catalog_item"> <img class="catalog_item_img" src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg"> <p> Стул Mintrigi <br> <span> 13000 UAH </span> </p> </a>
+        <a asp-action="DetailsProduct" asp-route-id="@product.IdProduct" class="catalog_item"> <img class="catalog_item_img" src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg"> <p> Стул Mintrigi <br> <span> 13000 UAH </span> </p> </a>
+    </div>
+    </div> 
+
+  
+</div>
+       
+
+<footer>
+  <img src="../images/icons/-v.png"  alt="">
+  
+  <div class="footer_logo" >
+    VALTIMPERIUM
+  </div>
+  
+  <div class="icons_seti">
+    <img class="icon" src="../images/icons/instagram.png" alt="">
+    <img class="icon" src="../images/icons/telega.png" alt="">
+    <img class="icon" src="../images/icons/facebook.png" alt="">
+  </div>
+  
+  <div class="phones">
+  <p> 066-46-80-440 </p>
+  <p> 095-53-63-060 </p>
+  </div>
+  
+  </footer>
+  
+  
+
+
+
+       <div class="modal">
+        <div class="modal__dialog">
+          <div class="btns-change">
+                    <div class="btn-change btn_entr">
+                      ВХОД
+                    </div>
+                    <div class="btn-change btn_reg">
+                      РЕГИСТРАЦИЯ
+                    </div>
+                  </div>
+            <div class="modal__content">
+                  <form action="#" id="form_entr">
+                 
+                   <div class="modal__inputs">
+                    <input required placeholder="Логин" name="login" type="text" class="modal__input">
+                    <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+                   </div>
+               
+                    <button class="modal__btn"> Войти </button>
+                </form>
+                <form action="#" id="form_reg">
+                  <div class="modal__inputs">
+                    <div class="fio_block">
+                      <input required placeholder="Имя" name="name" type="text" class="modal__input name_inp" >
+                      <input required placeholder="Фамилия" name="surname" type="text" class="modal__input name_inp">
+                    </div>
+                    <input required placeholder="Логин" name="login" type="text" class="modal__input">
+                    <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+                    <input required placeholder="Телефон" name="telephone" type="telephone" class="modal__input">
+                  </div>
+                    <button class="modal__btn"> Зарегистрироваться </button>
+                </form>
+            </div>
+        </div>
+      </div>
+
+
+
+
+  
+
+   <script src="../js/form.js" ></script>
+
+    <!-- <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> -->
+    <script src="../js/menu.js" ></script>
+</body>
+</html>

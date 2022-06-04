@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Valtimperium</title>
+   
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="../css/simple-adaptive-slider.css"  />
+<link rel="stylesheet" href="../css/main.css"  />
+<link rel="stylesheet" href="../css/menu.css"  />
+<link rel="stylesheet" href="../css/back.css"/>
+<link rel="stylesheet" href="../css/modal.css"/>
+<script src="../js/simple-adaptive-slider.js"></script>
+
+ <script>
+ document.addEventListener('DOMContentLoaded', function() {
+       new SimpleAdaptiveSlider('.slider', {loop: true,
+ autoplay: false,
+ interval: 5000,
+ swipe: true,
+});
+ });
+
+
+
+</script>
+
+</head>
+<body>
+    <div class="navigator">
+        
+      <div class="user-info">
+        <div class="user-info__fio">
+            Вика Красавица
+        </div>
+
+        <div class="user-info__exit">
+            <img height ="25px" src="../images/icons/exit.png">
+        </div>
+    </div> 
+
+         <div class="navigator_logo">
+          <img height ="60px" src="../images/logo.png" alt="">
+           
+           <h2>ДИЗАЙНЕРСКАЯ МЕБЕЛЬ</h2> 
+        </div> 
+<!-- - valtimperium - -->
+       
+
+        <ul class="menu">
+          <li><a class="menuItem menuItemActive" href="#">ГЛАВНАЯ</a></li>
+          <li><a class="menuItem" href="bgf.html">О НАС</a></li>
+          <li><a class="menuItem" href="#">ТОВАРЫ</a></li>
+          <li><p class="menuItem madal_entr_btn"  >ВХОД</p></li>
+        </ul>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <img width="32px" height="32px" class="menuIcon material-icons" src="../images/-.png" alt="">
+          <img width="32px" height="32px" class="closeIcon  " src="../images/а.png" alt="">
+
+          
+        </button>
+    </div>
+
+       <!-- Разметка слайдера (html код) -->
+      
+<div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          <img class="img__slider" src="../images/5523adf095744.jpg" alt="/images/i01_post_6550 1.jpg">
+        </div>
+        <div class="slider__item">
+          <img class="img__slider" src="../images/5523ade1251ac.jpg" alt="/images/look.com.ua-40621.jpg">
+        </div>
+        <div class="slider__item">
+          <img class="img__slider" src="../images/5278afcc602c0.jpg" alt="/">
+        </div>
+        <div class="slider__item">
+          <img class="img__slider" src="../images/5278afec16f2a.jpg" alt="/images/PSX_20220321_131429.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+  </div>
+  
+<div class="icons_container">
+
+<div class="icons_container_block">
+<img src="../images/icons/car.png" alt="">
+<p> Бесплатная и быстрая доставка в любую точку Украины</p>
+</div>
+
+<div class="icons_container_block">
+  <img src="../images/icons/garant.png" alt="">
+  <p> Отличная гарантия любого типа мебели на целый год </p>
+</div>
+
+<div class="icons_container_block">
+  <img src="../images/icons/hands.png" alt="">
+  <p> Самые выгодные предложения в соотношении цены и качества </p>
+</div>
+
+</div>
+
+
+<div class="description">
+
+<div class="description_text">
+<h1> Наша мебель - произведение искусства </h1>
+<p> Покупая дизайнерскую мебель от Valtimperium, вы должны быть готовы ловить завистливые взляды знакомых.
+  <br/>
+   Мебель обладает невероятным качеством: используются только лучшие сорта древесины без сучков и трещин; металлы подобраны не вызывающе и со вкусом. 
+   <br/>
+   Такое приобретение может стать отличным подарком либо же создателем уютной и стильной атмосферы вашего дома.
+   <a href="" class="description_link">
+    Перейти в каталог   <i id="arrow_anim">&#8594;</i>
+  </a>
+  </p>
+</div>
+
+
+<div class="description_image">
+<img width="450px" height="530px" src="../images/primer.jpg" alt="">
+</div>
+
+</div>
+
+<div class="modal">
+  <div class="modal__dialog">
+    <div class="btns-change">
+              <div class="btn-change btn_entr">
+                ВХОД
+              </div>
+              <div class="btn-change btn_reg">
+                РЕГИСТРАЦИЯ
+              </div>
+            </div>
+      <div class="modal__content">
+            <form action="#" class="form_entr">
+           
+             <div class="modal__inputs">
+              <input required placeholder="Логин" name="login" type="text" class="modal__input">
+              <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+             </div>
+         
+              <button class="modal__btn"> Войти </button>
+          </form>
+          <form action="#" class="form_reg">
+            <div class="modal__inputs">
+              <div class="fio_block">
+                <input required placeholder="Имя" name="name" type="text" class="modal__input name_inp" >
+                <input required placeholder="Фамилия" name="surname" type="text" class="modal__input name_inp">
+              </div>
+              <input required placeholder="Логин" name="login" type="text" class="modal__input">
+              <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+              <input required placeholder="Телефон" name="telephone" type="telephone" class="modal__input">
+            </div>
+              <button class="modal__btn"> Зарегистрироваться </button>
+          </form>
+      </div>
+  </div>
+</div>
+
+<footer>
+<img src="../images/icons/-v.png"  alt="">
+
+<div class="footer_logo" >
+  VALTIMPERIUM
+</div>
+
+<div class="icons_seti">
+  <img class="icon" src="../images/icons/instagram.png" alt="">
+  <img class="icon" src="../images/icons/telega.png" alt="">
+  <img class="icon" src="../images/icons/facebook.png" alt="">
+</div>
+
+<div class="phones">
+<p> 066-46-80-440 </p>
+<p> 095-53-63-060 </p>
+</div>
+
+</footer>
+
+
+
+<script src="../js/form.js" ></script>
+
+    <!-- <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> -->
+    <script src="../js/menu.js" ></script>
+</body>
+</html>
+

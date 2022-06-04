@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menuItem {
+    display: block;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;  
+    font-family: 'Poiret One', cursive;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItemActive {
+    color: rgb(151, 148, 148);
+  }
+
+  .menuItem:hover {
+    color: rgb(151, 148, 148);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    
+    top: 1.2rem;
+    right: 2.5rem;
+    position: fixed;
+    z-index: 101;
+    padding: 4px;
+    border: none;
+    background: #2e2929;
+    cursor: pointer;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 87%;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #2e2929;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    height: 100%;
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+  }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css"  />
+<link rel="stylesheet" href="../css/menu.css"  />
+<link rel="stylesheet" href="../css/back.css"/>
+<link rel="stylesheet" href="../css/modal.css"/>
+<link rel="stylesheet" href="../css/order.css">
+
+
+</head>
+<body>
+    <div class="navigator">
+        
+        <div class="user-info">
+          <div class="user-info__fio">
+              Вика Красавица
+          </div>
+  
+          <div class="user-info__exit">
+              <img height ="25px" src="../images/icons/exit.png">
+          </div>
+      </div> 
+  
+           <div class="navigator_logo">
+            <img height ="60px" src="../images/logo.png" alt="">
+             
+             <h2>ДИЗАЙНЕРСКАЯ МЕБЕЛЬ</h2> 
+          </div> 
+  <!-- - valtimperium - -->
+         
+  
+          <ul class="menu">
+            <li><a class="menuItem menuItemActive" href="#">ГЛАВНАЯ</a></li>
+            <li><a class="menuItem" href="bgf.html">О НАС</a></li>
+            <li><a class="menuItem" href="#">ТОВАРЫ</a></li>
+            <li><p class="menuItem madal_entr_btn"  >ВХОД</p></li>
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <img width="32px" height="32px" class="menuIcon material-icons" src="../images/-.png" alt="">
+            <img width="32px" height="32px" class="closeIcon  " src="../images/а.png" alt="">
+  
+            
+          </button>
+      </div>
+
+      <div class="detail_content">
+        <div class="detail_img_container">
+          <img src="../prodImages/12429deba17aefd770781b5a4ade5804.jpg" alt="">
+        </div>
+        
+
+        <div class="detail_info">
+          <h1> Стул Mintrigi </h1>
+          <p> Диван выполнен в нежно-серых цветах, что одновременно создаёт атмосферу строгости и смешивает её с грациозно-домашним уютом. Низ дивана сделан из резного дуба в каштановом цвете, а обтянут нежной байкой, которая не боится внешнего вмешательства. </p>
+          <p> В наличии &#10004; </p>
+          <p> Цена: 13000 UAH </p>
+
+          <button class="order_btn" type="submit" value="Заказать">
+        </div>
+      </div>
+        
+
+
+      <footer>
+        <img src="../images/icons/-v.png"  alt="">
+        
+        <div class="footer_logo" >
+          VALTIMPERIUM
+        </div>
+        
+        <div class="icons_seti">
+          <img class="icon" src="../images/icons/instagram.png" alt="">
+          <img class="icon" src="../images/icons/telega.png" alt="">
+          <img class="icon" src="../images/icons/facebook.png" alt="">
+        </div>
+        
+        <div class="phones">
+        <p> 066-46-80-440 </p>
+        <p> 095-53-63-060 </p>
+        </div>
+        
+        </footer>
+
+
+        <div class="window_order">
+          <div class="window_order__dialog">
+              <div class="window_order__content">
+                    <form action="#" class="form_order">
+                     <p> Товар: Стул Mintrigi </p>
+                     <div class="range_container">
+                      <input type="range" min="1" max="20" value="20" class="slider" id="myRange">  <p id="dinamicValue">50</p>
+                     </div>
+              
+                     <p> Cуммарная цена: 13000 </p>
+                     
+                     <div class="window_order__inputs">
+                      <input required placeholder="Номер карты" maxlength="10" name="login" type="number" class="window_order__input">
+                     
+                      <input required placeholder="Пин" maxlength="3" name="password" type="number" class="window_order__input">
+                      
+                      
+                     </div>
+                     <input required placeholder="Куда доставить?" id="address" name="address" type="text" class="window_order__adress">
+                 
+                      <input type="submit" value="Заказать" class="window_order__btn"></input>
+                  </form>
+              </div>
+          </div>
+        </div>
+
+      <div class="modal">
+        <div class="modal__dialog">
+          <div class="btns-change">
+                    <div class="btn-change btn_entr">
+                      ВХОД
+                    </div>
+                    <div class="btn-change btn_reg">
+                      РЕГИСТРАЦИЯ
+                    </div>
+                  </div>
+            <div class="modal__content">
+                  <form action="#" class="form_entr">
+                 
+                   <div class="modal__inputs">
+                    <input required placeholder="Логин" name="login" type="text" class="modal__input">
+                    <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+                   </div>
+               
+                    <button class="modal__btn"> Войти </button>
+                </form>
+                <form action="#" class="form_reg">
+                  <div class="modal__inputs">
+                    <div class="fio_block">
+                      <input required placeholder="Имя" name="name" type="text" class="modal__input name_inp" >
+                      <input required placeholder="Фамилия" name="surname" type="text" class="modal__input name_inp">
+                    </div>
+                    <input required placeholder="Логин" name="login" type="text" class="modal__input">
+                    <input required placeholder="Пароль" name="password" type="password" class="modal__input">
+                    <input required placeholder="Телефон" name="telephone" type="telephone" class="modal__input">
+                  </div>
+                    <button class="modal__btn"> Зарегистрироваться </button>
+                </form>
+            </div>
+        </div>
+      </div>
+
+      <script src="../js/form.js" ></script>
+
+      <!-- <script src="~/lib/jquery/dist/jquery.min.js"></script>
+      <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="~/js/site.js" asp-append-version="true"></script> -->
+      <script src="../js/menu.js" ></script>
+      <script src="../js/order.js" ></script>
+
+
+</body>
+</html>
